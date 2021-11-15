@@ -7,10 +7,25 @@ function myFunction() {
     location.replace("/")
     
 }
+
+function jaCadastrado() {
+    alert("Usuario Cadastrado");
+    location.replace("/")
+    
+}
+
+function cadastar(){
+    window.location.href="cadastro";
+}
+function voltar(){
+    window.location.href="/";
+}
+
 $(document).ready(function(){
     $("#btnsair").click(function(){
         window.location.href ='/sair';
     });
+   
 
     $("#btn_suditos").click(function(){
         $('#msg').hide();
