@@ -9,7 +9,6 @@
   "author": "Jorge",
   "license": "ISC",
   "dependencies": {
-    "connect-flash": "^0.1.1",
     "consign": "^0.1.2",
     "cookie-parser": "^1.4.5",
     "crypto": "^1.0.1",
@@ -17,7 +16,6 @@
     "express": "^4.14.0",
     "express-session": "^1.17.2",
     "express-validator": "^3.2.0",
-    "install": "^0.13.0",
     "mongodb": "^2.2.29"
   }
 }
